@@ -1,40 +1,54 @@
 .footer {
     background-color: #f8f8f8;
     padding: 20px;
-    width: 100%;
-    height: auto;
 }
 
 .footer__chocolate-section {
+    position: relative;
     text-align: center;
     margin-bottom: 20px;
-}
-
-.footer__chocolate-section img {
-    width: 100%;
-    height: auto;
 }
 
 .footer__image {
     width: 100%;
     height: auto;
+    display: block;
+}
+
+.footer__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer__title,
+.footer__description,
+.footer__subscribe-section {
+    margin: 10px 0;
 }
 
 .footer__title {
     font-size: 1.5em;
-    margin: 10px 0;
 }
 
 .footer__description {
     font-size: 1em;
-    margin: 0 20px;
 }
 
 .footer__subscribe-section {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    margin-bottom: 20px;
+    align-items: center;
 }
 
 .footer__subscribe-content {
@@ -67,14 +81,13 @@
     cursor: pointer;
 }
 
-.footer__icon-svg {
-    margin-left: 5px;
-    width: 24px;
-    height: 24px;
+.footer__additional-info {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .footer__contact {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .address-container a {
@@ -86,9 +99,10 @@
 
 .footer__social-media {
     display: flex;
+    justify-content: center;
     gap: 10px;
+    margin-top: 10px;
 }
-
 
 .footer__icon-link {
     text-decoration: none;
