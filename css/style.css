@@ -74,7 +74,8 @@
     height: 40px;
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: #FD9222;
+    ;
     color: #fff;
     border: none;
     padding: 0 10px;
@@ -133,4 +134,8 @@
     display: inline;
     margin: 0 10px;
     font-size: 1em;
+}
+
+.highlight {
+    color: #FD9222;
 }
