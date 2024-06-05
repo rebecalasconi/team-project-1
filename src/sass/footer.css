@@ -7,7 +7,7 @@ body {
 /* Footer section */
 
 .footer {
-    background-color: #2c2c2c;
+    background-color: #1E1823;
     color: #f8f8f8;
     padding: 40px 20px;
     text-align: center;
@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 20px;
     box-sizing: border-box;
@@ -44,16 +44,18 @@ body {
 }
 
 .footer__title {
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 10px 0;
     font-weight: 700;
 }
 
 .footer__description {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 10px 0;
     font-weight: 300;
     max-width: 800px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .footer__subscribe-section {
@@ -69,7 +71,7 @@ body {
 }
 
 .footer__subtitle {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -85,16 +87,16 @@ body {
     align-items: center;
 }
 
-/* Subscribe section */
+/* Subscribe button */
 
 .subscribe-form__btn {
-    height: 40px;
+    height: 45px;
     display: flex;
     align-items: center;
     background-color: #fd9222;
     color: #fff;
     border: none;
-    padding: 0 20px;
+    padding: 0 25px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1em;
@@ -120,10 +122,11 @@ body {
     color: #f8f8f8;
     margin: 5px 0;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .address-container a:hover {
-    text-decoration: underline;
+    color: #fd9222;
 }
 
 .footer__social-media {
@@ -165,7 +168,7 @@ body {
 }
 
 .footer__link-item {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
     font-size: 1.2em;
     font-weight: 400;
