@@ -13,6 +13,10 @@
     opacity: 1;
 }
 
+.footer__chocolate-section {
+    background-color: #1E1823;
+}
+
 .footer__image {
     width: 100%;
     height: auto;
@@ -71,14 +75,15 @@
 .subscribe-form__btn {
     width: 128px;
     height: 41px;
-    padding: 12px 28px;
-    border-radius: 100px 0px 0px 0px;
-    background-color: #ffa500;
-    color: white;
-    border: none;
+    color: #fff;
     cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
     margin-top: 10px;
+    padding: 12px 28px;
 }
+
 
 .footer__subtitle {
     font-family: 'Montserrat', sans-serif;
@@ -87,9 +92,9 @@
     line-height: 28px;
     letter-spacing: -0.02em;
     text-align: left;
-    width: 300px;
+    width: auto;
     height: auto;
-    margin: 32px 0 10px 20px;
+    margin: 0;
     color: #FFFFFF;
 }
 
@@ -100,10 +105,7 @@
     line-height: 28px;
     letter-spacing: -0.02em;
     text-align: left;
-    width: 300px;
-    height: auto;
-    margin: 32px 0 10px 20px;
-    color: #FFFFFF;
+    color: #FD9222;
 }
 
 .footer__additional-info {
@@ -114,20 +116,52 @@
     color: #FFFFFF;
 }
 
+.footer__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__contact-info {
+    flex: 1;
+}
+
 .address-container {
-    width: 164px;
-    height: auto;
     margin: 10px 0;
     gap: 14px;
     opacity: 1;
+    color: #FFFFFF;
+}
+
+.address-container a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footer__social-media {
-    width: 58px;
-    height: auto;
-    margin: 10px 0;
-    gap: 14px;
-    opacity: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+.footer__icon-background {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #1E1823;
+    border-radius: 50%;
+}
+
+.footer__icon-link {
+    display: inline-block;
 }
 
 .footer__links-section {
@@ -145,9 +179,18 @@
     height: auto;
     margin: 0;
     gap: 18px;
+    padding: 10px;
+    margin-top: revert;
 }
 
 .footer__link-item {
     margin: 5px 0;
     cursor: pointer;
+}
+
+.footer-divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #FFFFFF;
+    margin: 10px 0;
 }
