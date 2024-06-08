@@ -15,8 +15,14 @@ li:last-child{
     align-items: center;
 }
 
+.tsellers-section {
+    margin: 72px 20px;
+    min-width: 320px;
+    max-width: 375px;
+    
+}
+
 .topsellers__title {
-    margin-top: 72px;
     margin-bottom: 0px;
     text-transform: uppercase;
     text-align: center;
