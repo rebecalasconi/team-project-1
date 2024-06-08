@@ -11,21 +11,21 @@
   background-color:var(--color-black);
   display: flex;
   flex-wrap: wrap;
-  margin: 72px 0;
-}
-.benefits_section ul{
-  list-style: none;
+  margin-top: 670px;
+  width: 375px;
   padding: 20px;
 }
 
-.benefits_group{
-  padding: 20px;
+.benefits_section ul{
+  list-style: none;
 }
 
 .benefits_group h2{
   font-weight: 600;
   font-size: 18px;
   line-height: 1.2;
+  padding-top: 22px;
+  padding-bottom: 18px;
   font-family: 'Montserrat';
   color: var(--color-white);
 }
@@ -38,17 +38,45 @@
   text-align: left;
   color: var(--color-gris);
 }
+
+.benefits_group {
+  margin-bottom: 20px;
+}
+
 .benefits_svg{
-  width: 32px;
-  height: 32px;
-  border: 1px solid var(--color-orange);
+  width: 62px;
+  height: 62px;
+  border: 1px solid var(--color-gris);
   border-radius: 50%;
+}
+
+.benefits_group svg {
   padding: 15px;
+}
+
+.benefits_list {
+  max-width: 336px;
+  padding-right: 28px;
+}
+
+.list1 {
+  height: 226px;
+}
+
+.list2 {
+  height: 243px;
+}
+
+.list3 {
+  height: 209px;
 }
 
 /* item section */
 .item_section{
   margin: 72px 20px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 375px;
 }
 .item_section h2{
   font-family: Montserrat;
@@ -58,6 +86,7 @@
   letter-spacing: -0.03em;
   text-align: center;
   color:var(--color-black);
+  margin-bottom: 24px;
 
 }
 .item_section span{
@@ -84,6 +113,12 @@
   align-items: center;
   flex-direction: column;
 }
+
+.item_list li {
+  width: 335px;
+  height: 270px;
+}
+
 .item_list_p1{
   font-family: Montserrat;
   font-size: 14px;
@@ -105,6 +140,7 @@
 .item{
   position: relative;
   overflow: hidden;
+  border-radius: 15px;
 }
 .item:hover .item_list_hidden{
   transform: translateY(0);
@@ -148,26 +184,13 @@ color: var(--color-black);
 }
 .item_choc{
   background-color: var(--color-orange);
-  padding: 20px;
-  margin: 20px;
-  border-radius: 15px;
-  width: 300px;
-
 }
 .item_milk{
   border: 1px solid var(--color-orange);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 20px;
-  width: 300px;
 
 }
 .item_nuts{
   background-color:var(--color-black);
-  padding: 20px;
-  margin: 20px;
-  border-radius: 15px;
-  width: 300px;
 }
 .button{
   padding: 6px 16px;
