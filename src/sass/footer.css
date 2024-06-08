@@ -67,6 +67,7 @@ body {
 
 .footer__additional-info {
     padding: 20px;
+    text-align: left;
 }
 
 .footer__subtitle {
@@ -81,7 +82,7 @@ body {
 .footer__contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 
@@ -98,7 +99,7 @@ body {
 .footer__social-media {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
@@ -125,7 +126,7 @@ body {
 
 .footer__links-section {
     display: flex;
-    justify-content: center;
+    text-align: left;
 }
 
 .footer__links {
@@ -200,7 +201,7 @@ body {
 
     .footer__title {
         font-size: 28px;
-        margin: 20px
+        margin: 20px;
     }
 
     .footer__description {
@@ -223,5 +224,7 @@ body {
 
     .footer__links {
         flex-direction: row;
+        text-align: center;
+        justify-content: center;
     }
 }
