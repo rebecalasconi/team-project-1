@@ -4,7 +4,6 @@
     margin-top: 72px;
     margin-bottom: 105px;
     gap: 50px;
-    opacity: 0px;
     background-color: #f6f2f2;
 }
 
@@ -12,7 +11,6 @@
     width: 164px;
     height: 24px;
     gap: 0px;
-    opacity: 0px;
     
 }
 
@@ -23,8 +21,8 @@
 .our__products__title {
     font-family: sans-serif;
     font-size: 20px;
-    font-weight: 600;
     line-height: 24px;
+    font-weight: 600;
     letter-spacing: -0.03em;
     text-align: center;
 
@@ -33,18 +31,18 @@
 .products__item {
     font-family: sans-serif;
     font-size: 20px;
-    font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.03em;
     color: orange;
     text-align: center;
+    font-weight: 600;
 
 }
 
 .container__title {
     font-family: sans-serif;
     font-size: 18px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.02em;
     text-align: left;
@@ -96,6 +94,7 @@ button:hover {
     scroll-snap-type: x mandatory;
     list-style: none;
     scrollbar-width: none;
+    align-items: center;
 
 }
 
@@ -103,7 +102,6 @@ button:hover {
     width: 335px;
     height: 364px;
     gap:18px;
-    opacity: 0px;
     background-color: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -133,7 +131,6 @@ button:hover {
         margin-left: 32px;
         margin-right: 400px;
         gap: 0px;
-        opacity: 0px;
 
     }
 
@@ -142,7 +139,6 @@ button:hover {
         height: 364px;
         gap: 0px;
         border: 1px 0px 0px 0px;
-        opacity: 0px;
     }
 
     .our__products__item li {
@@ -157,7 +153,6 @@ button:hover {
         gap: 10px;
         border-radius: 10px;
         border: 1px;
-        opacity: 0px;
     }
 }
 
@@ -170,7 +165,6 @@ button:hover {
         margin-left: 32px;
         margin-right: 32px;
         gap: 50px;
-        opacity: 0px;
     }
     
 }
