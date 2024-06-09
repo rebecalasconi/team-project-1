@@ -169,6 +169,7 @@ color: var(--color-black);
   position: relative;
   overflow: hidden;
   border-radius: 15px;
+  border: 1px solid var(--color-orange);
 }
 
 .item img {
@@ -200,24 +201,50 @@ color: var(--color-black);
 @media screen and (min-width: 768px){
   .benefits_section ul {
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 32px;
+    padding-bottom: 50px;
   }
 
-  .benefits_item {
-    width: 300px;
-    padding: 20px;
+ .benefits_section {
+  width: 768px;
+  height: 670px;
+  margin-top: 950px;
+  margin-bottom: 100px;
+}
+
+  .benefits_group {
+    width: 308px;
+    height: 224px;
+    padding-right: 28px;
   }
-.item_list{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.item_section h2{
-  padding: 100px 200px 28px 200px;
-}
-.item_section_text{
-  padding: 28px 109px;
-}
+
+  .item_section h2 {
+    font-size: 23px;
+    line-height: 28px;
+    width: 685px;
+    margin: 0 auto;
+    padding-bottom: 28px;
+  }
+  
+  .item_section p {
+    width: 486px;
+    margin: 0 auto;
+  }
+
+  .item_section {
+    max-width: 768px;
+    margin-bottom: 100px;
+    height: 778px;
+  }
+   
+  .item_list{
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+  }
+
   }
 
 

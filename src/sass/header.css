@@ -326,26 +326,26 @@ body {
 }
 
   /*Nav-bar tablet styling*/
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
     .nav-bar {
         max-width: 704px;
         margin-left: 40px;
     }
 
     .menu-button {
-        margin-left: 300px;
+        margin-left: 360px;
     }
 }
 
   /*Hero-section tablet styling*/
-@media screen and (min-width:767px) {
-    .main-page {
+@media screen and (min-width:768px) {
+    .hero-section {
         max-width: 704px;
         margin-left: 32px;
         margin-right: 32px;
     }
 
-    .header {
+    .header-section {
         max-width: 768px;
     }
 
@@ -432,8 +432,7 @@ body {
     }
     .header {
        max-width: 1136px;
-       margin-left: 32px;
-       margin-right: 32px;
+       margin: 24px 32px;
     } 
 
     .menu-button {
@@ -462,7 +461,6 @@ body {
         width: 735px;
         height: 24px;
         list-style: none;
-        margin-top: 24px;
     }
 
     .hidden-header__item a {
@@ -480,6 +478,10 @@ body {
         width: 24px;
         height: 24px;
         padding: 1px;
+    }
+
+    .hidden-header li {
+        padding-top: 0;
     }
 
     .hidden-header svg {
@@ -508,4 +510,8 @@ body {
         width: 78px;
         height: 18px;
      } 
+
+     .hidden-header__item:first-child {
+       margin-right: 50px;
+     }
 }

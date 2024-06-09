@@ -347,6 +347,12 @@ li:last-child{
 /*topsellers tablet style  */
 
 @media screen and (min-width: 768px) {
+    .topsellers-section {
+        max-width: 768px;
+        margin-left: 120px;
+    }
+    
+    
     li {
         padding-top: 50px;
 
@@ -362,11 +368,16 @@ li:last-child{
     }
 
     .topsellers__list {
-        display: flex;
         gap: 16px;
         margin-top: 25px;
         margin-bottom: 0px;
         position: absolute;
+        display: flex;
+    }
+
+
+    .topsellers {
+        width: 768px;
     }
 
     img {
