@@ -79,14 +79,14 @@ li:last-child{
 /*
  * modal styles
  */
-.is-hidden {
+.is-hidden-sell {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     background-color: rgba(250, 250, 250, 1);
 }
 
-[data-modal] {
+[data-modal-sell] {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -96,7 +96,7 @@ li:last-child{
 
 }
 
-[data-modal-content] {
+[data-modal-content-sell] {
     width: 311px;
     height: 994px;
     background-color: rgba(250, 250, 250, 1);
@@ -108,7 +108,7 @@ li:last-child{
     transition-duration: 1s;
 }
 
-[data-modal-close] {
+[data-modal-close-sell] {
     position: absolute;
     top: 10px;
     right: 8px;
@@ -118,14 +118,14 @@ li:last-child{
     border: none;
 }
 
-[data-modal-close]:hover {
+[data-modal-close-sell]:hover {
     cursor: pointer;
 
 }
 
 
 
-.is-hidden [data-modal-content] {
+.is-hidden-sell [data-modal-content-sell] {
     transform: translate(-50%, -70%) scale(0.3);
 }
 
@@ -399,7 +399,7 @@ li:last-child{
 
     /*topsellers modal tablet style  */
 
-    [data-modal-content] {
+    [data-modal-content-sell] {
         width: 609px;
         height: 1058px;
         background-color: rgba(250, 250, 250, 1);

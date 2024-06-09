@@ -1,4 +1,4 @@
-<section class="tsellers-section">
+<section class="tsellers-section" id="top">
     <div class="topsellers">
 
     <h1 class="topsellers__title"><span class="topsellers__title__span">top</span> sellers</h1>
@@ -17,15 +17,15 @@
             <img src="/src/images/tsellers-img/tsimg03.jpg" alt="chocolate and mint" width="344">
         </li>
     </ul>
-    <button data-modal-open class="topsellers__btn" type="button">Buy now</button>
+    <button data-modal-open-sell class="topsellers__btn" type="button">Buy now</button>
 </div>
 
 <!-- Modal section-->
 
-<div data-modal class="is-hidden">
-    <div data-modal-content>
+<div data-modal class="is-hidden-sell">
+    <div data-modal-content-sell>
         <p></p>
-        <button data-modal-close type="button">x</button>
+        <button data-modal-close-sell type="button">x</button>
         <h1 class="modal-title"><span class="modal-title-span">buy</span> now</h1>
         <ul class="modal-list">
             <li class="modal-list-list">
@@ -85,6 +85,8 @@
     </div>
 </div>
 </section>
+<script src="./partials/modal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.0.3/bodyScrollLock.min.js"></script>
 
 
 
