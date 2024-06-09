@@ -33,6 +33,13 @@ padding: 20px;
 color: #ff6c00;
 }
 
+.how-section {
+    margin: 72px 20px;
+    min-width: 320px;
+    max-width: 375px;
+    width: 100%;
+}
+
 .how__title2 {
 font-family: var(--primary-font);
 font-weight: 600;
@@ -55,13 +62,14 @@ line-height: 129%;
 letter-spacing: -0.02em;
 color: #111;
 margin-bottom: -20px;
+margin-top: 18px;
 }
 
 .frame {
 padding-left: 20px;
 border-radius: 15px;
 width: 335px;
-height: 1032px;
+height: 500px;
 }
 .recipe {
 position: relative;
@@ -114,7 +122,7 @@ margin-bottom: -20px;}
 padding-left: 20px;
 border-radius: 15px;
 width: 335px;
-height: 1032px;}
+height: 500px;}
 .recipe {
 position: relative;
 left: 10px;
@@ -131,10 +139,11 @@ max-width: 768px;}
 font-family: var(--primary-font);
 font-weight: 600;
 font-size: 24px;
-line-height: 117%;
+line-height: 28px;
 letter-spacing: -0.03em;
 text-transform: uppercase;
-text-align: center;
+padding-left: 195px;
+width: 614px;
 color: #111;
 padding-bottom: 50px;}
             
@@ -160,6 +169,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 129%;
 letter-spacing: -0.02em;
+padding-top: 18px;
 color: #111;}         
 .frame {
 margin-left: 60px;
@@ -173,6 +183,8 @@ width: 614px;
 height: 356px;
 }
 }
+
+
 @media (min-width: 1200px) {
 .container {
 max-width: 1200px;}
@@ -188,7 +200,8 @@ letter-spacing: -0.03em;
 text-transform: uppercase;
 text-align: center;
 color: #111;
-padding-bottom: 50px;
+margin-left: 220px;
+padding-bottom: 10px;
 }
 .color {
     color: #ff6c00;
@@ -202,15 +215,7 @@ padding-bottom: 50px;
     padding-right: 40px;
     margin-right: 60px;
     }
-.how__list2 {
-font-family: var(--primary-font);
-font-weight: 400;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.02em;
-color: #111;
-margin-bottom: -15px;
-}
+    
 .recipe {
 left: -50px;
 top: 30px;
@@ -219,6 +224,15 @@ height: 400px;
 border-radius: 15px;  
 background-color: #ffffff;
 
+.how__list2 {
+    padding-bottom: 24px;
+    padding-top: 0;
+}
+
+.how__list2:first-child {
+    margin-left: -40px;
+}
+
 }
 .frame {
 margin-top: 30px;
@@ -226,4 +240,12 @@ padding-left: 10px;
 border-radius: 15px;
 height: 400px;
 width: 600px;}
+.how-section {
+    width: 1200px;
+}
+
+.how {
+    width: 1200px;
+    margin-top: -360px;
+}
 }
