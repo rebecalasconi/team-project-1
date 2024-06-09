@@ -12,9 +12,6 @@
 
 html {
     box-sizing: border-box;
-    min-width: 320px;
-    max-width: 375px;
-    width: 100%;
   }
 
 body {
@@ -25,9 +22,9 @@ body {
 .header-section {
     margin-top: 20px;
     margin-bottom: 72px;
-    height: 620px;
-    min-width: 320px;
-    max-width: 375px;
+    height: 66px;
+    min-width: 280px;
+    max-width: 330px;
     width: 100%;
   }
 
@@ -101,25 +98,16 @@ body {
 /*Hero section styling*/
 .hero-section {
     min-width: 280px;
-    max-width: 320px;
-    width: 100%;
+    max-width: 330px;
+    width: 98%;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
-.main-page {
-    width: 100%;
-    min-width: 320px;
-    max-width: 335px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 .main-page__content {
     background-image: linear-gradient(#00000020, #2f303a40),
     url(../images/header-img/mobile-background@1x.jpg);
-    max-width: 335px;
-    min-width: 280px;
-    width: 100%;
     border-radius: 30px;
     background-size: cover;
     padding: 395px 20px 20px 20px;
@@ -145,7 +133,7 @@ body {
     font-family: var(--primary-font);
     font-size: 14px;
     font-weight: 600;
-    padding: 12px 22px;
+    padding: 12px 21px;
     border-radius: 20px;
     color: var(--white);
 }
@@ -338,26 +326,26 @@ body {
 }
 
   /*Nav-bar tablet styling*/
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
     .nav-bar {
         max-width: 704px;
         margin-left: 40px;
     }
 
     .menu-button {
-        margin-left: 300px;
+        margin-left: 360px;
     }
 }
 
   /*Hero-section tablet styling*/
-@media screen and (min-width:767px) {
-    .main-page {
+@media screen and (min-width:768px) {
+    .hero-section {
         max-width: 704px;
         margin-left: 32px;
         margin-right: 32px;
     }
 
-    .header {
+    .header-section {
         max-width: 768px;
     }
 
@@ -444,8 +432,7 @@ body {
     }
     .header {
        max-width: 1136px;
-       margin-left: 32px;
-       margin-right: 32px;
+       margin: 24px 32px;
     } 
 
     .menu-button {
@@ -474,7 +461,6 @@ body {
         width: 735px;
         height: 24px;
         list-style: none;
-        margin-top: 24px;
     }
 
     .hidden-header__item a {
@@ -492,6 +478,10 @@ body {
         width: 24px;
         height: 24px;
         padding: 1px;
+    }
+
+    .hidden-header li {
+        padding-top: 0;
     }
 
     .hidden-header svg {
@@ -520,4 +510,8 @@ body {
         width: 78px;
         height: 18px;
      } 
+
+     .hidden-header__item:first-child {
+       margin-right: 50px;
+     }
 }
