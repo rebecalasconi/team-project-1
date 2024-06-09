@@ -541,4 +541,9 @@ li:last-child{
       width: 407px; 
         
     }
+
+    .topsellers {
+        width: 1200px;
+        margin-bottom: 680px;
+    }
 }
