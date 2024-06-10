@@ -12,18 +12,10 @@ body {
 /* Footer styles for mobile */
 .footer {
     width: 100%;
-<<<<<<< Updated upstream
-    min-width: 320px;
-    max-width: 375px;
-    background-color: #1E1823;
-    color: #FFFFFF;
-    text-align: center;
-=======
     background-color: #1E1823;
     color: #FFFFFF;
     text-align: center;
     padding: 20px;
->>>>>>> Stashed changes
 }
 
 .footer__chocolate-section {
@@ -31,30 +23,22 @@ body {
     overflow: hidden;
 }
 
-<<<<<<< Updated upstream
 .footer img {
-    min-width: 320px;
     width: 100%;
-    max-width: 375px;
-    height: 370px;
-    background-size: cover;
-=======
+    height: auto;}
+    
 .footer__image {
     width: 100%;
     height: auto;
->>>>>>> Stashed changes
 }
 
 .footer__overlay {
     position: absolute;
     top: 0;
     left: 0;
-<<<<<<< Updated upstream
-=======
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,18 +49,11 @@ body {
 .footer__title {
     font-size: 20px;
     font-weight: 600;
-<<<<<<< Updated upstream
     padding-bottom: 24px;
     padding-top: 62px;
     width: 291px;
 }
 
-
-=======
-    margin-bottom: 10px;
-}
-
->>>>>>> Stashed changes
 .footer__description {
     font-size: 14px;
     margin-bottom: 20px;
@@ -100,14 +77,9 @@ body {
 }
 
 .footer__subtitle {
-<<<<<<< Updated upstream
     font-size: 24px;
     margin-bottom: 32px;
     width: 300px;
-=======
-    font-size: 18px;
-    margin-bottom: 10px;
->>>>>>> Stashed changes
 }
 
 .highlight {
@@ -129,10 +101,6 @@ body {
     color: white;
     text-decoration: none;
     display: block;
-<<<<<<< Updated upstream
-    padding-top: 14px;
-=======
->>>>>>> Stashed changes
 }
 
 .footer__social-media {
@@ -186,7 +154,6 @@ body {
 /* Footer section for tablet */
 @media screen and (min-width: 768px) {
     .footer {
-<<<<<<< Updated upstream
         max-width: 768px;
     }
 
@@ -194,12 +161,6 @@ body {
         max-width: 768px;
         height: 370px;
     }
-=======
-        padding: 40px;
-        text-align: left;
-    }
-
->>>>>>> Stashed changes
     .footer__chocolate-section {
         display: flex;
     }
