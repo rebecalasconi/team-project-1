@@ -178,8 +178,8 @@ body {
 }
 
 .scroll-down-container__text {
-    width: 67px;
-    font-size: 12px;
+    width: 68px;
+    font-size: 11px;
     padding-top: 7px;
     color: var(--white);
 }
@@ -385,7 +385,7 @@ body {
     .scroll-down-container__text {
         font-size: 14px;
         padding-top: 10px;
-        width: 78px;
+        width: 80px;
     }
 
     .main-page__subtitle {
@@ -507,7 +507,7 @@ body {
     }
 
     .scroll-down-container__text {
-        width: 78px;
+        width: 82px;
         height: 18px;
      } 
 

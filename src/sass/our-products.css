@@ -1,8 +1,6 @@
 .section {
     width: 335px;
     height: 453px;
-    margin-top: 72px;
-    margin-bottom: 105px;
     gap: 50px;
     background-color: #f6f2f2;
 }
@@ -19,12 +17,13 @@
 }
 
 .our__products__title {
-    font-family: sans-serif;
+    font-family: montserrat;
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
     letter-spacing: -0.03em;
     text-align: center;
+    padding-bottom: 32px;
 
 }
 
@@ -66,16 +65,16 @@
 }
 
 
- .button {
+ .button-products {
     display: center;
     font-size: 16px;
     line-height: 30px;
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 32px -4px var(--black);
+    box-shadow: 3px 5px 32px -4px gray;
     letter-spacing: 0.06em;
     margin-top: 20px;
-    margin-left: 75px;
+    margin-left: 10px;
     margin-bottom: 40px;
     width: 80px;
     height: 30px;
@@ -124,7 +123,7 @@ button:hover {
     }
 
     .section {
-        width: 1136px;
+        width: 768px;
         height: 487px;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -158,13 +157,13 @@ button:hover {
 
 @media  screen and (min-width:1200px) {
     .section {
-        width: 1,200px;
+        width: 1200px;
         height: 442px;
         margin-top: 128px;
         margin-bottom: 173px;
         margin-left: 32px;
         margin-right: 32px;
         gap: 50px;
-    }
     
+}
 }
